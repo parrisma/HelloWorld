@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4a6611-2562-438f-b3cf-2dd21226b4f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/teamcity/BuildStep2-CustomScript.txt" afterPath="$PROJECT_DIR$/teamcity/BuildStep2-CustomScript.txt" />
+      <change beforePath="$PROJECT_DIR$/tests/TestHelloWorld.py" afterPath="$PROJECT_DIR$/tests/TestHelloWorld.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,14 +93,14 @@
         <option value="$PROJECT_DIR$/HelloWorld.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/tests/TestHelloWorld.py" />
         <option value="$PROJECT_DIR$/teamcity/BuildStep2-CustomScript.txt" />
+        <option value="$PROJECT_DIR$/tests/TestHelloWorld.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="66" />
+    <option name="x" value="452" />
+    <option name="y" value="43" />
     <option name="width" value="1307" />
     <option name="height" value="1235" />
   </component>
@@ -213,7 +213,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="66" width="1307" height="1235" extended-state="0" />
+    <frame x="452" y="43" width="1307" height="1235" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
