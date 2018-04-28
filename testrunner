@@ -1,2 +1,2 @@
-pip install -e /d/Dev/devroot/HelloWorld
-python ./tests/TestHelloWorld.py
+pip install -e HelloWorld
+python /HelloWorld/tests/TestHelloWorld.py
