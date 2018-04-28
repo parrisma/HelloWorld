@@ -1,0 +1,10 @@
+<copy lines below into custom script in team city as build step 2 after Dockerfile is build
+ this will run the tests within the instaniated image
+>
+docker run -d %env.TC_DOCKER_CI_IMAGE% sh -c "HelloWorld/testrunner" > cid
+more cid
+set /p CID=<cid
+echo [ %%CID%% ]
+docker wait %%CID%%
+docker logs %%CID%%
+docker rm %%CID%%
