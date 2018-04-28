@@ -2,11 +2,12 @@
  this will run the tests within the instaniated image
 >
 docker run -d %env.TC_DOCKER_CI_IMAGE% sh -c "HelloWorld/testrunner" > cid
+more cid
 set /p CID=<cid
-echo [ %CID% ]
-docker wait %CID%
-docker logs %CID% 1> unit_test_log 2>&1
-docker rm %CID%
+echo [ %%CID%% ]
+docker wait %%CID%%
+docker logs %%CID%% 1> unit_test_log 2>&1
+docker rm %%CID%%
 more unit_test_log
 find /c "failures" < unit_test_log > error_count
 set /p ECNT=<error_count
